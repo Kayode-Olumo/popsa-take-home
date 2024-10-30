@@ -4,11 +4,7 @@ Welcome to Popsa! This application is designed to simplify the process of creati
 
 This application is built using Next.js, React, and styled-components, leveraging modern web technologies to deliver a seamless user experience.
 
-**Live Link**: [Popsa App](https://popsa-app.vercel.app/)
-
-## Preview
-
-![Popsa App Preview](./public/preview.png)
+**Live Link**: [Popsa App](https://popsa-take-home.vercel.app/)
 
 ## Solution Overview
 
@@ -35,11 +31,23 @@ Using styled-components, the application maintains a consistent and customisable
 
 ### Key Features
 
-- Drag and drop functionality for image arrangement
-- Responsive design across all devices
-- Server-side rendering with Next.js
-- Component-based architecture
-- Basic test coverage
+- **Dynamic Image Management**:
+
+  - Drag and drop functionality for image arrangement within pages
+  - Cross-page image movement allowing images to be transferred between different pages
+  - Automatic page creation when moving images to empty spaces
+  - Smart reordering of remaining images when an image is moved
+
+- **Responsive Layout**:
+
+  - Fluid design that adapts to different screen sizes
+  - Touch-friendly interface for mobile devices
+  - Consistent experience across desktop and mobile platforms
+
+- **Modern Architecture**:
+  - Server-side rendering with Next.js
+  - Component-based architecture for maintainability
+  - Basic test coverage for critical components
 
 ## Areas for Improvement
 
