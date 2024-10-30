@@ -5,7 +5,7 @@ import {
   StyledImage,
   EmptySlot,
 } from "../DraggableImageGrid/styles/DraggableImageGrid.styles";
-import Actions from "@/components/Actions/actions";
+import Actions from "@/src/components/Actions/actions";
 
 export const renderGridItem = (image, pageIndex, index) => {
   return (

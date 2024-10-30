@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
-import GalleryClient from "../GalleryClient";
-import CommonStrings from "@/utils/constants";
-import { imgData } from "@/data/imgData";
+import GalleryClient from "@/src/components/Gallery/GalleryClient";
+import CommonStrings from "@/src/utils/constants";
+import { imgData } from "@/src/data/imgData";
 
 // Mock next/image
 jest.mock("next/image", () => ({

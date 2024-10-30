@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import HomeClient from "../HomeClient";
-import CommonStrings from "@/utils/constants";
+import HomeClient from "@/src/components/Home/HomeClient";
+import CommonStrings from "@/src/utils/constants";
 
 // Mock next/image since it's not available in test environment
 jest.mock("next/image", () => ({

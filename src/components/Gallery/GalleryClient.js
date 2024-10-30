@@ -2,9 +2,9 @@
 
 import Head from "next/head";
 import PageHeader from "@/app/gallerypage/styles/galleryclient.styles";
-import { imgData } from "@/data/imgData";
-import CommonStrings from "@/utils/constants";
-import DraggableImageGrid from "@/components/DraggableImageGrid/index";
+import { imgData } from "@/src/data/imgData";
+import CommonStrings from "@/src/utils/constants";
+import DraggableImageGrid from "@/src/components/DraggableImageGrid/index";
 
 const GalleryClient = () => {
   console.log("imgData:", imgData);

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Intro from "@/app/styles/home.styles";
-import CommonStrings from "@/utils/constants";
+import CommonStrings from "@/src/utils/constants";
 
 export default function HomeClient() {
   return (

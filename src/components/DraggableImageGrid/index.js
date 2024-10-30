@@ -10,7 +10,7 @@ import {
   Container,
   Grid,
 } from "./styles/DraggableImageGrid.styles";
-import Actions from "@/components/Actions/actions";
+import Actions from "@/src/components/Actions/actions";
 
 import styled from "styled-components";
 

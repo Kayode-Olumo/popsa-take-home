@@ -1,7 +1,7 @@
 "use server";
 
-import { imgData } from "@/data/imgData";
-import GalleryClient from "@/components/GalleryClient/GalleryClient";
+import { imgData } from "@/src/data/imgData";
+import GalleryClient from "@/src/components/Gallery/GalleryClient";
 
 export default async function GalleryPage() {
   return <GalleryClient initialData={imgData} />;
