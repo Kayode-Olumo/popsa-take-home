@@ -43,26 +43,64 @@ Using styled-components, the application maintains a consistent and customisable
 
 ## Areas for Improvement
 
-### 1. TypeScript Integration
+### 1. Drag and Drop Enhancement
+
+- Current implementation could be simplified for better maintainability
+- Animation transitions need smoothing, especially during drag operations
+- Consider alternatives to react-beautiful-dnd such as:
+  - @dnd-kit/core for better performance
+  - Custom implementation using HTML5 Drag and Drop API
+- Improve visual feedback during drag operations
+- Add touch gesture support for mobile devices
+
+### 2. Folder Structure Reorganization
+
+Current structure needs improvement for scalability:
+
+```
+src/
+  ├── components/         # Shared components
+  ├── features/          # Feature-based components
+  │   ├── gallery/
+  │   │   ├── components/
+  │   │   ├── hooks/
+  │   │   └── utils/
+  │   └── photobook/
+  ├── hooks/             # Shared hooks
+  ├── utils/             # Utility functions
+  ├── styles/            # Global styles
+  ├── types/             # TypeScript types
+  └── services/          # API services
+```
+
+Proposed improvements:
+
+- Implement feature-based architecture
+- Separate business logic from UI components
+- Group related components together
+- Create dedicated folders for hooks and utilities
+- Improve test file organization
+
+### 3. TypeScript Integration
 
 - Implement TypeScript for enhanced type safety
 - Add type definitions for all components and utilities
 - Improve code maintainability and catch errors early
 
-### 2. Test
+### 4. Test
 
 - Increase test coverage across components
 - Add integration tests for critical user flows
 - Implement end-to-end testing with Cypress or Playwright
 - Add more comprehensive snapshot testing
 
-### 3. State Management
+### 5. State Management
 
 - Evaluate and implement a more robust state management solution
 - Consider Redux or Zustand for complex state logic
 - Improve state organization and management patterns
 
-### 4. Performance Optimization
+### 6. Performance Optimization
 
 - Implement lazy loading for images
 - Optimize bundle size
@@ -70,7 +108,7 @@ Using styled-components, the application maintains a consistent and customisable
 - Implement proper error boundaries
 - Add performance monitoring
 
-### 5. Accessibility Improvements
+### 7. Accessibility Improvements
 
 - Conduct accessibility audit
 - Implement ARIA labels and roles
@@ -78,7 +116,7 @@ Using styled-components, the application maintains a consistent and customisable
 - Ensure sufficient color contrast
 - Add screen reader support
 
-### 6. Code Quality
+### 8. Code Quality
 
 - Implement stricter ESLint rules
 - Add Prettier for consistent code formatting
@@ -86,7 +124,7 @@ Using styled-components, the application maintains a consistent and customisable
 - Improve component documentation
 - Add JSDoc comments for better code documentation
 
-### 7. Error Handling
+### 9. Error Handling
 
 - Implement comprehensive error handling
 - Add error boundaries for component-level errors
