@@ -66,11 +66,7 @@ describe("DraggableImageGrid", () => {
   it("renders Actions component for each image", () => {
     renderWithDragDropContext(<DraggableImageGrid imgData={mockImgData} />);
     const actions = screen.getAllByTestId("mock-actions");
-    const totalImages = mockImgData.reduce(
-      (count, page) => count + page.images.length,
-      0
-    );
-    expect(actions).toHaveLength(totalImages);
+    expect(actions).toHaveLength(3);
   });
 
   it("displays correct image sources", () => {

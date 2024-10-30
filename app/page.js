@@ -6,10 +6,12 @@ export const metadata = {
   description: "",
 };
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
       <HomeClient />
     </div>
   );
-}
+};
+
+export default Home;
