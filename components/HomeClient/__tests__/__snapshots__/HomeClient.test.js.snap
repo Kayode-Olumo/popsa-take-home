@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeClient matches snapshot 1`] = `
+<div>
+  <div
+    class="sc-34dd1efc-0 cbRrnm"
+  >
+    <img
+      alt="Popsa"
+      height="32"
+      src="/logo.svg"
+      width="127"
+    />
+    <h1>
+      Welcome to the React frontend test
+    </h1>
+    <a
+      href="/gallerypage"
+    >
+      Start test
+    </a>
+  </div>
+</div>
+`;

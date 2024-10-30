@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GalleryClient matches snapshot 1`] = `
+<div>
+  <div>
+    <div
+      class="sc-dc66316b-0 cfGOnG"
+    >
+      <h1>
+        Trip to the Beach
+      </h1>
+      <p>
+        Hardback Photobook last edited on Thursday 13 April 2022 at 16:28
+      </p>
+    </div>
+    <div
+      data-testid="mock-draggable-grid"
+    >
+      Mock Grid
+    </div>
+  </div>
+</div>
+`;

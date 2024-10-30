@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DraggableImageGrid matches snapshot 1`] = `
+<div>
+  <div
+    data-rbd-droppable-context-id="8"
+    data-rbd-droppable-id="droppable"
+  >
+    <div
+      class="sc-dcc24a48-0 iNOuQm"
+    >
+      <div
+        class="sc-dcc24a48-1 fyqukt"
+      >
+        <div
+          class="sc-5b39ccb4-0 gxckfF"
+        >
+          <div
+            class="sc-5b39ccb4-1 FkjUt"
+          >
+            Front Print
+          </div>
+          <div
+            data-testid="mock-actions"
+          >
+            Actions
+          </div>
+        </div>
+        <div
+          class="sc-dcc24a48-3 cZVGSy"
+          data-rbd-droppable-context-id="9"
+          data-rbd-droppable-id="page-0"
+        >
+          <div
+            aria-describedby="rbd-hidden-text-9-hidden-text-74"
+            class="sc-dcc24a48-4 Jeili"
+            data-rbd-drag-handle-context-id="9"
+            data-rbd-drag-handle-draggable-id="0-0"
+            data-rbd-draggable-context-id="9"
+            data-rbd-draggable-id="0-0"
+            draggable="false"
+            role="button"
+            style="cursor: grab; opacity: 1;"
+            tabindex="0"
+          >
+            <img
+              alt="Image 1"
+              class="sc-dcc24a48-5 gnyRgc"
+              data-testid="image-0-0"
+              height="500"
+              src="https://videodelivery.net/775b1b7196b2c126b8dc343416211fdb/thumbnails/thumbnail.jpg?height=1080"
+              width="500"
+            />
+          </div>
+          <div
+            aria-describedby="rbd-hidden-text-9-hidden-text-74"
+            class="sc-dcc24a48-4 Jeili"
+            data-rbd-drag-handle-context-id="9"
+            data-rbd-drag-handle-draggable-id="0-1"
+            data-rbd-draggable-context-id="9"
+            data-rbd-draggable-id="0-1"
+            draggable="false"
+            role="button"
+            style="cursor: grab; opacity: 1;"
+            tabindex="0"
+          >
+            <div
+              class="sc-dcc24a48-6 gMwuOb"
+              data-testid="empty-slot-0-1"
+            >
+              Empty Slot
+            </div>
+          </div>
+          <div
+            aria-describedby="rbd-hidden-text-9-hidden-text-74"
+            class="sc-dcc24a48-4 Jeili"
+            data-rbd-drag-handle-context-id="9"
+            data-rbd-drag-handle-draggable-id="0-2"
+            data-rbd-draggable-context-id="9"
+            data-rbd-draggable-id="0-2"
+            draggable="false"
+            role="button"
+            style="cursor: grab; opacity: 1;"
+            tabindex="0"
+          >
+            <div
+              class="sc-dcc24a48-6 gMwuOb"
+              data-testid="empty-slot-0-2"
+            >
+              Empty Slot
+            </div>
+          </div>
+          <div
+            aria-describedby="rbd-hidden-text-9-hidden-text-74"
+            class="sc-dcc24a48-4 Jeili"
+            data-rbd-drag-handle-context-id="9"
+            data-rbd-drag-handle-draggable-id="0-3"
+            data-rbd-draggable-context-id="9"
+            data-rbd-draggable-id="0-3"
+            draggable="false"
+            role="button"
+            style="cursor: grab; opacity: 1;"
+            tabindex="0"
+          >
+            <div
+              class="sc-dcc24a48-6 gMwuOb"
+              data-testid="empty-slot-0-3"
+            >
+              Empty Slot
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-dcc24a48-1 fyqukt"
+      >
+        <div
+          class="sc-5b39ccb4-0 gxckfF"
+        >
+          <div
+            class="sc-5b39ccb4-1 FkjUt"
+          >
+            Page 2
+          </div>
+          <div
+            data-testid="mock-actions"
+          >
+            Actions
+          </div>
+        </div>
+        <div
+          class="sc-dcc24a48-3 cZVGSy"
+          data-rbd-droppable-context-id="9"
+          data-rbd-droppable-id="page-1"
+        >
+          <div
+            aria-describedby="rbd-hidden-text-9-hidden-text-74"
+            class="sc-dcc24a48-4 Jeili"
+            data-rbd-drag-handle-context-id="9"
+            data-rbd-drag-handle-draggable-id="1-0"
+            data-rbd-draggable-context-id="9"
+            data-rbd-draggable-id="1-0"
+            draggable="false"
+            role="button"
+            style="cursor: grab; opacity: 1;"
+            tabindex="0"
+          >
+            <img
+              alt="Image 1"
+              class="sc-dcc24a48-5 gnyRgc"
+              data-testid="image-1-0"
+              height="500"
+              src="https://videodelivery.net/9ad2bb839e4e3cc1074e5d73b0a0379b/thumbnails/thumbnail.jpg?height=1080"
+              width="500"
+            />
+          </div>
+          <div
+            aria-describedby="rbd-hidden-text-9-hidden-text-74"
+            class="sc-dcc24a48-4 Jeili"
+            data-rbd-drag-handle-context-id="9"
+            data-rbd-drag-handle-draggable-id="1-1"
+            data-rbd-draggable-context-id="9"
+            data-rbd-draggable-id="1-1"
+            draggable="false"
+            role="button"
+            style="cursor: grab; opacity: 1;"
+            tabindex="0"
+          >
+            <img
+              alt="Image 2"
+              class="sc-dcc24a48-5 gnyRgc"
+              data-testid="image-1-1"
+              height="500"
+              src="https://imagedelivery.net/66_qOEcY2UwnECf5ON9PhQ/bde5b129-52ba-4f43-b3f4-97591952ea00/large"
+              width="500"
+            />
+          </div>
+          <div
+            aria-describedby="rbd-hidden-text-9-hidden-text-74"
+            class="sc-dcc24a48-4 Jeili"
+            data-rbd-drag-handle-context-id="9"
+            data-rbd-drag-handle-draggable-id="1-2"
+            data-rbd-draggable-context-id="9"
+            data-rbd-draggable-id="1-2"
+            draggable="false"
+            role="button"
+            style="cursor: grab; opacity: 1;"
+            tabindex="0"
+          >
+            <div
+              class="sc-dcc24a48-6 gMwuOb"
+              data-testid="empty-slot-1-2"
+            >
+              Empty Slot
+            </div>
+          </div>
+          <div
+            aria-describedby="rbd-hidden-text-9-hidden-text-74"
+            class="sc-dcc24a48-4 Jeili"
+            data-rbd-drag-handle-context-id="9"
+            data-rbd-drag-handle-draggable-id="1-3"
+            data-rbd-draggable-context-id="9"
+            data-rbd-draggable-id="1-3"
+            draggable="false"
+            role="button"
+            style="cursor: grab; opacity: 1;"
+            tabindex="0"
+          >
+            <div
+              class="sc-dcc24a48-6 gMwuOb"
+              data-testid="empty-slot-1-3"
+            >
+              Empty Slot
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-dcc24a48-1 fyqukt"
+      >
+        <div
+          class="sc-5b39ccb4-0 gxckfF"
+        >
+          <div
+            class="sc-5b39ccb4-1 FkjUt"
+          >
+            Page 3
+          </div>
+          <div
+            data-testid="mock-actions"
+          >
+            Actions
+          </div>
+        </div>
+        <div
+          class="sc-dcc24a48-3 cZVGSy"
+          data-rbd-droppable-context-id="9"
+          data-rbd-droppable-id="page-2"
+        >
+          <div
+            aria-describedby="rbd-hidden-text-9-hidden-text-74"
+            class="sc-dcc24a48-4 Jeili"
+            data-rbd-drag-handle-context-id="9"
+            data-rbd-drag-handle-draggable-id="2-0"
+            data-rbd-draggable-context-id="9"
+            data-rbd-draggable-id="2-0"
+            draggable="false"
+            role="button"
+            style="cursor: grab; opacity: 1;"
+            tabindex="0"
+          >
+            <img
+              alt="Image 1"
+              class="sc-dcc24a48-5 gnyRgc"
+              data-testid="image-2-0"
+              height="500"
+              src="https://videodelivery.net/91097538e177847ebeb934a492e146e9/thumbnails/thumbnail.jpg?height=1080"
+              width="500"
+            />
+          </div>
+          <div
+            aria-describedby="rbd-hidden-text-9-hidden-text-74"
+            class="sc-dcc24a48-4 Jeili"
+            data-rbd-drag-handle-context-id="9"
+            data-rbd-drag-handle-draggable-id="2-1"
+            data-rbd-draggable-context-id="9"
+            data-rbd-draggable-id="2-1"
+            draggable="false"
+            role="button"
+            style="cursor: grab; opacity: 1;"
+            tabindex="0"
+          >
+            <img
+              alt="Image 2"
+              class="sc-dcc24a48-5 gnyRgc"
+              data-testid="image-2-1"
+              height="500"
+              src="https://imagedelivery.net/66_qOEcY2UwnECf5ON9PhQ/b73c2865-7a02-408b-654d-89ce2512ae00/large"
+              width="500"
+            />
+          </div>
+          <div
+            aria-describedby="rbd-hidden-text-9-hidden-text-74"
+            class="sc-dcc24a48-4 Jeili"
+            data-rbd-drag-handle-context-id="9"
+            data-rbd-drag-handle-draggable-id="2-2"
+            data-rbd-draggable-context-id="9"
+            data-rbd-draggable-id="2-2"
+            draggable="false"
+            role="button"
+            style="cursor: grab; opacity: 1;"
+            tabindex="0"
+          >
+            <div
+              class="sc-dcc24a48-6 gMwuOb"
+              data-testid="empty-slot-2-2"
+            >
+              Empty Slot
+            </div>
+          </div>
+          <div
+            aria-describedby="rbd-hidden-text-9-hidden-text-74"
+            class="sc-dcc24a48-4 Jeili"
+            data-rbd-drag-handle-context-id="9"
+            data-rbd-drag-handle-draggable-id="2-3"
+            data-rbd-draggable-context-id="9"
+            data-rbd-draggable-id="2-3"
+            draggable="false"
+            role="button"
+            style="cursor: grab; opacity: 1;"
+            tabindex="0"
+          >
+            <div
+              class="sc-dcc24a48-6 gMwuOb"
+              data-testid="empty-slot-2-3"
+            >
+              Empty Slot
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
