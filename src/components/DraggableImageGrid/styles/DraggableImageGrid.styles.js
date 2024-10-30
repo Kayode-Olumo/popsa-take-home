@@ -18,6 +18,20 @@ export const PageTitle = styled.h2`
   text-align: center;
 `;
 
+export const Header = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+`;
+
+export const Title = styled.div`
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+`;
+
 export const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);

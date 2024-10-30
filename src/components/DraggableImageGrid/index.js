@@ -9,23 +9,10 @@ import {
   PageContainer,
   Container,
   Grid,
+  Header,
+  Title,
 } from "./styles/DraggableImageGrid.styles";
 import Actions from "@/src/components/Actions/actions";
-
-import styled from "styled-components";
-
-const Header = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-`;
-
-const Title = styled.div`
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-`;
 
 // Move pure functions to a separate utils file
 export const initializePages = (imgData) => {
